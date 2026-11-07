@@ -35,7 +35,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I work on verification and validation for automated driving, and I enjoy building AI agents and tools that make engineering work faster. In my spare time I run a small homelab with Docker, Grafana and home automation.";
 
 /* Skills
  ************************************************************** 
@@ -44,48 +44,93 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    skill: <Icon icon="mdi:check-decagram" className="display-4" />,
+    name: "Verification & Validation",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    skill: <Icon icon="mdi:road-variant" className="display-4" />,
+    name: "Scenario-based Testing (OpenSCENARIO DSL)",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
+    skill: <Icon icon="mdi:car-cog" className="display-4" />,
+    name: "ADAS & Automated Driving",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="simple-icons:claude" className="display-4" />,
+    name: "AI Agents & Skills (Claude)",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
+    skill: <Icon icon="mdi:api" className="display-4" />,
+    name: "UTCP & MCP Tool Calling",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="mdi:account-group" className="display-4" />,
+    name: "Team Lead & Key Accounts",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="mdi:language-python" className="display-4" />,
+    name: "Python",
   },
   {
     id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
-    name: "Git",
+    skill: <Icon icon="fa6-brands:aws" className="display-4" />,
+    name: "AWS",
   },
   {
     id: 9,
-    skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
-    name: "GitHub",
+    skill: <Icon icon="simple-icons:datadog" className="display-4" />,
+    name: "Datadog",
+  },
+  {
+    id: 10,
+    skill: <Icon icon="mdi:docker" className="display-4" />,
+    name: "Docker & Compose",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="mdi:server-network" className="display-4" />,
+    name: "Komodo",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="simple-icons:terraform" className="display-4" />,
+    name: "Terraform",
+  },
+  {
+    id: 13,
+    skill: <Icon icon="simple-icons:grafana" className="display-4" />,
+    name: "Grafana, Prometheus & Loki",
+  },
+  {
+    id: 14,
+    skill: <Icon icon="mdi:github" className="display-4" />,
+    name: "Git & GitHub",
+  },
+  {
+    id: 15,
+    skill: <Icon icon="simple-icons:githubactions" className="display-4" />,
+    name: "GitHub Actions (CI/CD)",
+  },
+  {
+    id: 16,
+    skill: <Icon icon="mdi:linux" className="display-4" />,
+    name: "Linux",
+  },
+  {
+    id: 17,
+    skill: <Icon icon="simple-icons:mqtt" className="display-4" />,
+    name: "MQTT & Smart Home",
+  },
+  {
+    id: 18,
+    skill: <Icon icon="mdi:sine-wave" className="display-4" />,
+    name: "MATLAB / Simulink",
   },
 ];
 
